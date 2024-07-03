@@ -2,6 +2,7 @@ import React from 'react'
 import Banner from './components/sections/banner'
 import About from './components/sections/about'
 import Services from './components/sections/services'
+import Skills from './components/sections/skills'
 import Experience from './components/sections/experience'
 import Header from './components/sections/header'
 import Testimonial from './components/sections/testimonial'
@@ -19,6 +20,7 @@ const App = () => {
       <About />
       <Banner />
       <Services />
+      <Skills />
       <Experience />
       <Portfolio />
       <Testimonial />

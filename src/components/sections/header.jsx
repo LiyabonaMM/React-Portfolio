@@ -15,26 +15,31 @@ const menuList = [
     },
     {
         id: 3,
-        path: "resume",
-        label: "Resume"
-    },
-    {
-        id: 4,
         path: "services",
         label: "Services"
     },
     {
+        id: 4,
+        path: "skills",
+        label: "Skills"
+    },
+    {
         id: 5,
+        path: "resume",
+        label: "Resume"
+    },
+    {
+        id: 6,
         path: "portfolio",
         label: "Projects"
     },
     {
-        id: 6,
+        id: 7,
         path: "contact",
         label: "Contact"
     },
-
 ]
+
 const Header = () => {
     const [isSticky, setisSticky] = useState(false)
     useEffect(() => {
@@ -46,8 +51,7 @@ const Header = () => {
         const scrollTop = window.scrollY
         if (scrollTop > 85) {
             setisSticky(true)
-        }
-        else {
+        } else {
             setisSticky(false)
         }
     }
@@ -83,7 +87,7 @@ const Header = () => {
                                 <div className="navbar-collapse collapse">
                                     <ul className="navigation onepage clearfix">
                                         {
-                                            menuList.map(({ id, label, path }) => <li key={id}><Link to={path} spy={true} smooth={true} offset={0} duration={500}  className="nav-link-click" >{label}</Link></li>)
+                                            menuList.map(({ id, label, path }) => <li key={id}><Link to={path} spy={true} smooth={true} offset={0} duration={500} className="nav-link-click">{label}</Link></li>)
                                         }
                                     </ul>
                                 </div>

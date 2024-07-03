@@ -11,8 +11,8 @@ const ContactInfo = () => {
                     <div className="contact-icon">
                         <i><RiMapPinLine size={20} /></i>
                     </div>
-                    <h2>our office:</h2>
-                    <p>Jurain,Dhaka Bangladesh</p>
+                    <h2>Location</h2>
+                    <p>Cape Town, South Africa</p>
                 </div>
 
 
@@ -21,7 +21,7 @@ const ContactInfo = () => {
                         <i><RiPhoneLine size={20} /></i>
                     </div>
                     <h2>contact number:</h2>
-                    <p>+1234321321</p>
+                    <p>+27605813385</p>
                 </div>
 
 
@@ -29,8 +29,8 @@ const ContactInfo = () => {
                     <div className="contact-icon">
                         <i><RiMailLine size={20} /></i>
                     </div>
-                    <h2>Email us:</h2>
-                    <p>websitename@mail.com</p>
+                    <h2>Email me:</h2>
+                    <p>mxhalisalm@gmail.com</p>
                 </div>
 
             </div>
