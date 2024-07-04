@@ -25,7 +25,7 @@ const App = () => {
       <Portfolio />
       <Testimonial />
       <Pricing />
-      <Blogs />
+    
       <Contact />
       <Footer />
       <ProgressBar />

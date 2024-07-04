@@ -41,7 +41,7 @@ const About = () => {
             <div className="container">
                 <div className="row align-items-center">
                     {/*  START ABOUT IMAGE DESIGN AREA  */}
-                    <div className="col-lg-5">
+                    <div className="col-lg-6">
                         <SlideUp>
                             <div className="about-image-part">
                                 <img src={profile_img} alt="About Me" />
@@ -63,7 +63,7 @@ const About = () => {
                     </div>
                     {/*  END ABOUT IMAGE DESIGN AREA  */}
                     {/*  START ABOUT TEXT DESIGN AREA  */}
-                    <div className="col-lg-7">
+                    <div className="col-lg-6">
                         <div className="about-content-part">
                             <SlideUp>
                                 <h2>Hello, I’m Liyabona Mxhalisa</h2>
